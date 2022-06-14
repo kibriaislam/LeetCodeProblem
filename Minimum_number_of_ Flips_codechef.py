@@ -5,14 +5,16 @@ def solve():
         size = int(input())
         arr = list(map(int,input().split()))
         
-        if size%2 != 0 :
+        x = arr.count(1)
+        y = arr.count(-1)
+        
+        if (size%2 != 0):
             print(-1)
-        elif sum(arr)==0:
-            print(0)
+        else:
             
-        else :
-            x =sum(arr)//2
-            print(x)
+            z = max(x,y)
+            
+            print(z - (size//2))
 
 
 
