@@ -5,7 +5,7 @@ Recently i start problem solving agin and here in this repo i store all those so
 
 #Onile Judges:
 
-1.LeetCode
-2.CodeChef
-3.Codeforces
+1. LeetCode
+2. CodeChef
+3. Codeforces
 
